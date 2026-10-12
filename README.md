@@ -4,9 +4,9 @@ Research notes developed with ChatGPT, curated by Leonardo Bonanno. These are un
 
 [Research website](https://leobon12.github.io/research.html#ai-generated-research)
 
-The current collection contains 18 PDFs presenting 15 results in four topic groups. Expand a result below to read its statement. PDF links open GitHub’s document preview.
+The current collection contains 18 PDFs presenting 15 results in 6 topic sections. Expand a result below to read its statement. PDF links open GitHub’s document preview.
 
-## Shortest Directed Paths
+## Directed Distances in Random Planar Maps
 
 ### The 3/8 Scale for Shortest Directed Paths
 
@@ -59,7 +59,7 @@ The current collection contains 18 PDFs presenting 15 results in four topic grou
 
 **Lean:** coming soon
 
-## Liouville Quantum Gravity
+## Small-Parameter Liouville Quantum Gravity
 
 ### The Small-γ LQG Dimension Expansion
 
@@ -129,6 +129,8 @@ The current collection contains 18 PDFs presenting 15 results in four topic grou
 
 **Lean:** coming soon
 
+## Supercritical Liouville Quantum Gravity
+
 ### Conformal Covariance of Supercritical LQG
 
 <details>
@@ -145,7 +147,7 @@ The current collection contains 18 PDFs presenting 15 results in four topic grou
 
 **Lean:** coming soon
 
-## Higher-Dimensional Fields and Metrics
+## Random Geometry in Dimension at Least Three
 
 ### Higher-Dimensional LFPP Exponents
 
@@ -215,7 +217,7 @@ The current collection contains 18 PDFs presenting 15 results in four topic grou
 
 **Lean:** coming soon
 
-## Tilings, Packings, and Random Walks
+## Sphere Packings and Orthogonal Tilings
 
 ### Mesh-Only Convergence for Orthogonal Tilings
 
@@ -253,6 +255,8 @@ The current collection contains 18 PDFs presenting 15 results in four topic grou
 - [Dimension 4](papers/sphere-packing-four-dimensions.pdf) (13 pages)
 
 **Lean:** coming soon
+
+## Random Walks in Random Environments
 
 ### Reflected Random Walks with Spatial Singularities
 
