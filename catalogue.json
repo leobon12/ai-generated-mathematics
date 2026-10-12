@@ -1,0 +1,287 @@
+[
+  {
+    "id": "sdp-exponent",
+    "title": "The 3/8 Exponent for Shortest Directed Paths",
+    "description": "The median n^(3/8+o(1)) scale for the maximum finite shortest directed-path distance in an unconditioned KMSW cell.",
+    "files": [
+      {
+        "filename": "sdp-three-eighths-exponent.pdf",
+        "label": "PDF",
+        "pages": 14,
+        "sha256": "ac17d1502b6ededab62e554226771a12f93c4fc0bb6014b20add546e71a28080",
+        "bytes": 362123,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/sdp-three-eighths-exponent.pdf",
+        "repository_path": "papers/sdp-three-eighths-exponent.pdf"
+      }
+    ]
+  },
+  {
+    "id": "ldp-graph-limits",
+    "title": "Graph Limits of Longest Directed Paths",
+    "description": "Tightness and continuous graph-valued subsequential limits of the rescaled longest directed-path field.",
+    "files": [
+      {
+        "filename": "ldp-graph-limits.pdf",
+        "label": "PDF",
+        "pages": 15,
+        "sha256": "a287577b37a5c5e230339c7274a20b833d09cc6cc4a3282ff00c3a7e935846d0",
+        "bytes": 396617,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/ldp-graph-limits.pdf",
+        "repository_path": "papers/ldp-graph-limits.pdf"
+      }
+    ]
+  },
+  {
+    "id": "sdp-noncollapse",
+    "title": "Nontrivial Limits of Shortest Directed Paths",
+    "description": "Noncollapse of graph-valued, median-normalized limits, with a companion note on graph tightness.",
+    "files": [
+      {
+        "filename": "sdp-nontrivial-limits.pdf",
+        "label": "PDF",
+        "pages": 7,
+        "sha256": "982490315e61913d88f657f091d35374f3bdf0e0e80d0b785c1d2552f00f4a81",
+        "bytes": 302448,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/sdp-nontrivial-limits.pdf",
+        "repository_path": "papers/sdp-nontrivial-limits.pdf"
+      },
+      {
+        "filename": "sdp-graph-limits.pdf",
+        "label": "Graph limits",
+        "pages": 22,
+        "sha256": "6e4db3a747d6ff9a4599aba4fecd00272cbfe71a2be135bfa2a28ab6f236fafd",
+        "bytes": 381219,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/sdp-graph-limits.pdf",
+        "repository_path": "papers/sdp-graph-limits.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mesh-only-tilings",
+    "title": "Mesh-Only Convergence for Orthogonal Tilings",
+    "description": "Dirichlet approximation, harmonic measure, and walk convergence up to time parameterization. A recovered supplement gives harmonic-extension error of order mesh^(4/(d+4)), including the planar exponent 2/3.",
+    "files": [
+      {
+        "filename": "mesh-only-orthogonal-tilings.pdf",
+        "label": "PDF",
+        "pages": 17,
+        "sha256": "bbf65c71146de764b42ece7aa28e3dc2e781ec98fc54caee26dcdd1963316197",
+        "bytes": 418234,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/mesh-only-orthogonal-tilings.pdf",
+        "repository_path": "papers/mesh-only-orthogonal-tilings.pdf"
+      },
+      {
+        "filename": "mesh-only-sharper-rate.pdf",
+        "label": "Sharper Mesh-Only Convergence Rates",
+        "pages": 3,
+        "sha256": "b81c3fb14a70ab36b90b1d8f8682cf1cc7743d850315fae08581e41495b32719",
+        "bytes": 329970,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/mesh-only-sharper-rate.pdf",
+        "repository_path": "papers/mesh-only-sharper-rate.pdf"
+      }
+    ]
+  },
+  {
+    "id": "sphere-packing-tilings",
+    "title": "Sphere Packings and Tangency-Polytope Tilings",
+    "description": "Constructions covering arbitrary open sets by tangency polygons and polytopes in dimensions two, three, and four.",
+    "files": [
+      {
+        "filename": "circle-packing-planar-domains.pdf",
+        "label": "Dimension 2",
+        "pages": 5,
+        "sha256": "26c19b82d0b8b0a32c9e83fec376ccdadd3b478e6a29b7c978977a67b1ad4bf3",
+        "bytes": 219282,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/circle-packing-planar-domains.pdf",
+        "repository_path": "papers/circle-packing-planar-domains.pdf"
+      },
+      {
+        "filename": "sphere-packing-three-dimensions.pdf",
+        "label": "Dimension 3",
+        "pages": 8,
+        "sha256": "0897e6d1241987053fbdbbc3f4e4669920a7b02e505642e50cbd8bffd444f02c",
+        "bytes": 324030,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/sphere-packing-three-dimensions.pdf",
+        "repository_path": "papers/sphere-packing-three-dimensions.pdf"
+      },
+      {
+        "filename": "sphere-packing-four-dimensions.pdf",
+        "label": "Dimension 4",
+        "pages": 13,
+        "sha256": "58a1a405db3d8141b397d0fb7ba74a08f3fb8a3a56a2658f87b3df86cc0a202b",
+        "bytes": 263616,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/sphere-packing-four-dimensions.pdf",
+        "repository_path": "papers/sphere-packing-four-dimensions.pdf"
+      }
+    ]
+  },
+  {
+    "id": "odd-dimensional-sphere-averages",
+    "title": "Sphere Averages in Odd Dimensions",
+    "description": "Identification, covariance, and sample-path regularity of the spherical-average process of a log-correlated Gaussian field.",
+    "files": [
+      {
+        "filename": "odd-dimensional-sphere-averages.pdf",
+        "label": "PDF",
+        "pages": 13,
+        "sha256": "0b5835ab195bebe3b101706e707fcce62423242946fe14c851946639e5098be6",
+        "bytes": 346578,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/odd-dimensional-sphere-averages.pdf",
+        "repository_path": "papers/odd-dimensional-sphere-averages.pdf"
+      }
+    ]
+  },
+  {
+    "id": "odd-dimensional-quantum-cones",
+    "title": "Quantum Cones in Odd Dimensions",
+    "description": "Construction of the quantum cone and its local-limit description in odd dimensions greater than two.",
+    "files": [
+      {
+        "filename": "odd-dimensional-quantum-cones.pdf",
+        "label": "PDF",
+        "pages": 26,
+        "sha256": "7e743ab1c68a5b255a5268b2789070df9ef56ab8701b07ef071f952a3ad03a8f",
+        "bytes": 377359,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/odd-dimensional-quantum-cones.pdf",
+        "repository_path": "papers/odd-dimensional-quantum-cones.pdf"
+      }
+    ]
+  },
+  {
+    "id": "reflected-random-walks",
+    "title": "Reflected Random Walks with Spatial Singularities",
+    "description": "An invariance principle for random walks reflected at infinity, with a companion whole-plane formulation.",
+    "files": [
+      {
+        "filename": "reflected-random-walks.pdf",
+        "label": "PDF",
+        "pages": 40,
+        "sha256": "f23c4f7a460fa70eea888c29170cb5a0f4ddb410517d6efaf024c8c75637aa6a",
+        "bytes": 591091,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/reflected-random-walks.pdf",
+        "repository_path": "papers/reflected-random-walks.pdf"
+      },
+      {
+        "filename": "reflected-walks-ae-lines.pdf",
+        "label": "Whole-plane version",
+        "pages": 45,
+        "sha256": "854c493072d09a18d37159e77c9527d3f940bd82847fec9730ebb487de92e0df",
+        "bytes": 591560,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/reflected-walks-ae-lines.pdf",
+        "repository_path": "papers/reflected-walks-ae-lines.pdf"
+      }
+    ]
+  },
+  {
+    "id": "higher-dimensional-metric",
+    "title": "An Axiomatic Metric in Higher Dimensions",
+    "description": "A proposed proof of existence and uniqueness for a subcritical LFPP metric associated with a log-correlated field.",
+    "files": [
+      {
+        "filename": "higher-dimensional-lqg-metric.pdf",
+        "label": "PDF",
+        "pages": 32,
+        "sha256": "e2c8ea025b93c9e553bc50a61fa04b23667a511ba79a02a9bcbdbd647b63f6b1",
+        "bytes": 266466,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/higher-dimensional-lqg-metric.pdf",
+        "repository_path": "papers/higher-dimensional-lqg-metric.pdf"
+      }
+    ]
+  },
+  {
+    "id": "supercritical-conformal-covariance",
+    "title": "Conformal Covariance of Supercritical LQG",
+    "description": "Conformal coordinate changes for the supercritical LQG metric, including singular endpoints.",
+    "files": [
+      {
+        "filename": "supercritical-conformal-covariance.pdf",
+        "label": "PDF",
+        "pages": 11,
+        "sha256": "d5efcdbb7cf5ac8db89e9ecb105bca4c5d1c45ec17a0ceebb8f9feb33dbfaf9b",
+        "bytes": 313046,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/supercritical-conformal-covariance.pdf",
+        "repository_path": "papers/supercritical-conformal-covariance.pdf"
+      }
+    ]
+  },
+  {
+    "id": "small-gamma-dimension",
+    "title": "The Small-γ LQG Dimension Expansion",
+    "description": "A proposed small-parameter dimension expansion, with its leading coefficient characterized by a Gaussian variational problem.",
+    "files": [
+      {
+        "filename": "small-gamma-lqg-dimension.pdf",
+        "label": "PDF",
+        "pages": 17,
+        "sha256": "0f8e92b2fee970fdcf70d238940b8dddbd002b7e83494c00d5741f14119fcd3e",
+        "bytes": 393910,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/small-gamma-lqg-dimension.pdf",
+        "repository_path": "papers/small-gamma-lqg-dimension.pdf"
+      }
+    ]
+  },
+  {
+    "id": "gaussian-lqg-distance",
+    "title": "Gaussian Fluctuations of LQG Distance",
+    "description": "A proposed first-order Gaussian fluctuation theorem for small-parameter LQG distance under global square-crossing median normalization.",
+    "files": [
+      {
+        "filename": "gaussian-lqg-distance.pdf",
+        "label": "PDF",
+        "pages": 17,
+        "sha256": "bcb3e24f71fefd7f0c5b6d951814166e2d2bf4e9c5c8c7bc36c5442e9e772331",
+        "bytes": 411030,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/gaussian-lqg-distance.pdf",
+        "repository_path": "papers/gaussian-lqg-distance.pdf"
+      }
+    ]
+  },
+  {
+    "id": "higher-dimensional-lfpp",
+    "title": "Higher-Dimensional LFPP Exponents",
+    "description": "Small-parameter bounds identifying the logarithmic exponent 4/3 for LFPP in each fixed dimension d ≥ 2.",
+    "files": [
+      {
+        "filename": "higher-dimensional-lfpp-exponents.pdf",
+        "label": "PDF",
+        "pages": 16,
+        "sha256": "99174b5e98a79ab85dd3b6146a364c98304b27b27f625b2f465644f395877466",
+        "bytes": 432095,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/higher-dimensional-lfpp-exponents.pdf",
+        "repository_path": "papers/higher-dimensional-lfpp-exponents.pdf"
+      }
+    ]
+  },
+  {
+    "id": "small-parameter-geodesic-tightness",
+    "title": "Tightness of Small-Parameter Geodesics",
+    "description": "Functional tightness of the rescaled small-parameter geodesic at constant LQG-metric speed.",
+    "files": [
+      {
+        "filename": "small-parameter-geodesic-tightness.pdf",
+        "label": "PDF",
+        "pages": 6,
+        "sha256": "8d2b494d035f215c5b388a780063136435280d3f9aba5957a37530b5a72eaea5",
+        "bytes": 277269,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/small-parameter-geodesic-tightness.pdf",
+        "repository_path": "papers/small-parameter-geodesic-tightness.pdf"
+      }
+    ]
+  },
+  {
+    "id": "two-thirds-geodesic-deviation",
+    "title": "Two-Thirds Geodesic Deviation",
+    "description": "Quantitative tightness and noncollapse of maximal Euclidean geodesic deviation on the γ^(2/3) scale.",
+    "files": [
+      {
+        "filename": "two-thirds-geodesic-deviation.pdf",
+        "label": "PDF",
+        "pages": 13,
+        "sha256": "32e726f7a96ba7f2bd2f2b94287434d74dfb2310849adea4cbf1d44f4d8570bd",
+        "bytes": 139325,
+        "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/two-thirds-geodesic-deviation.pdf",
+        "repository_path": "papers/two-thirds-geodesic-deviation.pdf"
+      }
+    ]
+  }
+]
