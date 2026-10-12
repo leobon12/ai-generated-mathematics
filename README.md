@@ -4,7 +4,7 @@ Research notes developed with ChatGPT, curated by Leonardo Bonanno. These are un
 
 [Research website](https://leobon12.github.io/research.html#ai-generated-research)
 
-The current collection contains 11 PDFs in 11 entries across 6 topic sections. Expand a result below to read its statement. PDF links open GitHub’s document preview.
+The current collection contains 12 PDFs in 12 entries across 6 topic sections. Expand a result below to read its statement. PDF links open GitHub’s document preview.
 
 ## Directed Distances in Random Planar Maps
 
@@ -145,6 +145,21 @@ The current collection contains 11 PDFs in 11 entries across 6 topic sections. E
 </details>
 
 - [Odd-Dimensional Fields and Quantum Cones](papers/odd-dimensional-fields-and-quantum-cones.pdf) (30 pages)
+
+**Lean:** coming soon
+
+### GMC Tilings: Quenched Convergence
+
+<details>
+<summary>Result</summary>
+
+<p>For every integer d ≥ 3, take 0 &lt; γ &lt; √(2d) − √(2d−1), Q = d/γ + γ/2, and α = Q − √(Q²−4). Let h be the α-quantum cone in its unit-sphere first-passage embedding. Sample a conditional Poisson process with intensity ε<sup>−1</sup>μ<sub>h,γ</sub> and form its Euclidean Voronoi cells.</p><p>The walk starts in the cell containing 0 and chooses a neighboring nucleus with probability proportional to the shared facet area divided by the distance between nuclei. At unit intensity let π(o) be total incident conductance. Then Z = 𝔼[π(o)/μ<sub>h,α</sub>(P<sub>o</sub>)] is strictly positive and finite.</p><p>With deterministic step duration 2ε<sup>α/γ</sup>/Z, the linearly interpolated conditional path laws given the field and tiling converge in probability to α-Liouville Brownian motion from 0, with underlying Brownian generator ½Δ. The topology is local uniform convergence. The field-only conditional laws have the same convergence in probability, and step paths converge in local Skorokhod J₁.</p><p>The argument is shared across all dimensions, including d = 3. The parameter restriction and in-probability quantifier are part of the theorem.</p>
+
+<p><em>Quenched Convergence of GMC-Sampled Tilings in Every Dimension d ≥ 3: Theorem 1.1, p. 2.</em></p>
+
+</details>
+
+- [GMC Tilings: Quenched Convergence](papers/gmc-sampled-tilings-quenched-convergence.pdf) (36 pages)
 
 **Lean:** coming soon
 
