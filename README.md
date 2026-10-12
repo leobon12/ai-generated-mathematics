@@ -4,7 +4,7 @@ Research notes developed with ChatGPT, curated by Leonardo Bonanno. These are un
 
 [Research website](https://leobon12.github.io/research.html#ai-generated-research)
 
-The current collection contains 17 PDFs in 13 entries across 6 topic sections. Expand a result below to read its statement. PDF links open GitHub’s document preview.
+The current collection contains 11 PDFs in 11 entries across 6 topic sections. Expand a result below to read its statement. PDF links open GitHub’s document preview.
 
 ## Directed Distances in Random Planar Maps
 
@@ -44,7 +44,7 @@ The current collection contains 17 PDFs in 13 entries across 6 topic sections. E
 
 - [The Small-γ LQG Dimension Expansion](papers/small-gamma-lqg-dimension.pdf) (17 pages)
 
-**Lean:** coming soon
+**Lean:** [Lean](https://github.com/leobon12/lean-formalizations/tree/main/results/small-gamma-dimension). Theorem 1.1 and Proposition 1.2 with explicit LFPP-exponent existence and dimension-relation inputs; the linked guide lists these hypotheses and the GFF existence witness.
 
 ### Gaussian Fluctuations of LQG Distance
 
@@ -63,37 +63,18 @@ The current collection contains 17 PDFs in 13 entries across 6 topic sections. E
 
 **Lean:** coming soon
 
-### Two-Thirds Geodesic Deviation
+### Small-Parameter LQG Geodesics
 
 <details>
 <summary>Result</summary>
 
-<p>Let h be a whole-plane Gaussian free field with h<sub>1</sub>(0) = 0, and let P<sub>γ</sub> be its γ-LQG geodesic from 0 to 1, regarded as an unparametrized curve. Set M<sub>γ</sub> = max<sub>z∈P<sub>γ</sub></sub> dist(z, [0, 1]), the largest Euclidean distance from the straight segment. This quantity is unchanged by multiplying the metric by a positive factor.</p>
-<p>There are deterministic C &lt; ∞ and γ<sub>0</sub> &gt; 0 such that 𝔼M<sub>γ</sub> ≤ Cγ<sup>2/3</sup> for 0 &lt; γ &lt; γ<sub>0</sub>, and ℙ[M<sub>γ</sub> ≤ aγ<sup>2/3</sup>] ≤ Ca<sup>3/5</sup> uniformly over 0 &lt; a ≤ 1 and 0 &lt; γ &lt; γ<sub>0</sub>. For every A ≥ 1, the sharper upper-tail statement is limsup<sub>γ↓0</sub> ℙ[M<sub>γ</sub> &gt; Aγ<sup>2/3</sup>] ≤ C(A<sup>−3</sup> + A<sup>−4</sup>).</p>
-<p>Consequently M<sub>γ</sub>/γ<sup>2/3</sup> is tight and uniformly bounded away from zero in probability as γ ↓ 0. Every subsequential weak limit is finite and strictly positive almost surely, and the inverse moments of orders 0 &lt; r &lt; 3/5 are uniformly bounded for 0 &lt; γ &lt; γ<sub>0</sub>. The theorem does not assert convergence to a unique law or exclude a positive deterministic subsequential limit.</p>
+<p>For the whole-plane γ-LQG geodesic P<sub>γ</sub> from 0 to 1, parametrized at constant metric speed, its maximal Euclidean distance M<sub>γ</sub> from [0,1] satisfies 𝔼M<sub>γ</sub> ≤ Cγ<sup>2/3</sup> and ℙ[M<sub>γ</sub> ≤ aγ<sup>2/3</sup>] ≤ Ca<sup>3/5</sup> for small γ and 0 &lt; a ≤ 1. For each A ≥ 1, limsup<sub>γ↓0</sub> ℙ[M<sub>γ</sub> &gt; Aγ<sup>2/3</sup>] ≤ C(A<sup>−3</sup> + A<sup>−4</sup>).</p><p>The paths γ<sup>−2/3</sup>(P<sub>γ</sub>(t) − t) are tight in C([0,1], ℝ²), and their horizontal component vanishes uniformly in probability. The maximum is tight and bounded away from zero at this scale, with bounded inverse moments of orders below 3/5. No unique limiting law is asserted.</p>
 
-<p><em>two-thirds-geodesic-deviation.pdf: model and normalization (1.1)–(1.2), Theorem 1.1, equations (1.3)–(1.5), p. 1; tightness, noncollapse and inverse-moment consequences (1.6)–(1.8), p. 2.</em></p>
+<p><em>Theorem 1.1 (deviation), pp. 1–2; Theorem 1.2 (functional tightness), p. 2; shared band-event Lemma 5.1, p. 11; functional proof, §6, pp. 12–13; lower-tail Proposition 7.1, pp. 14–15; scalar consequences, §8, p. 15.</em></p>
 
 </details>
 
-- [Two-Thirds Geodesic Deviation](papers/two-thirds-geodesic-deviation.pdf) (13 pages)
-
-**Lean:** coming soon
-
-### Tightness of Small-Parameter Geodesics
-
-<details>
-<summary>Result</summary>
-
-<p>Let h be a whole-plane Gaussian free field with h<sub>1</sub>(0) = 0, and let P<sub>γ</sub> be the almost surely unique γ-LQG geodesic from 0 to 1. Parametrize it on [0, 1] at constant metric speed, so D<sub>h</sub><sup>γ</sup>(0, P<sub>γ</sub>(t)) = tD<sub>h</sub><sup>γ</sup>(0, 1). Multiplying the metric by a positive constant does not change this parametrized path.</p>
-<p>The family X<sub>γ</sub>(t) = γ<sup>−2/3</sup>(P<sub>γ</sub>(t) − t) is tight in C([0, 1], ℝ²), with its uniform topology, as γ ↓ 0. Moreover, sup<sub>t∈[0,1]</sub>|Re P<sub>γ</sub>(t) − t|/γ<sup>2/3</sup> → 0 in probability, so any subsequential limit has zero horizontal component. The functional statement includes control of the modulus of continuity and uses the constant-speed parametrization; it does not identify a unique limiting law.</p>
-<p>The proof imports the scalar mean bound, clock geometry, and frequency-localized estimate from the two-thirds-deviation note. Its additional conclusion is tightness of the entire rescaled path, beyond tightness of its maximum deviation.</p>
-
-<p><em>small-parameter-geodesic-tightness.pdf: parametrization (1) and Theorem 1.1, p. 1; imported inputs, Proposition 2.1 and Remark 2.2, pp. 2–3; vanishing horizontal component, §3, p. 3; path-tightness proof, §§4–6, pp. 3–6.</em></p>
-
-</details>
-
-- [Tightness of Small-Parameter Geodesics](papers/small-parameter-geodesic-tightness.pdf) (6 pages)
+- [Small-Parameter LQG Geodesics](papers/small-parameter-lqg-geodesics.pdf) (16 pages)
 
 **Lean:** coming soon
 
@@ -151,37 +132,19 @@ The current collection contains 17 PDFs in 13 entries across 6 topic sections. E
 
 **Lean:** coming soon
 
-### Sphere Averages in Odd Dimensions
+### Odd-Dimensional Fields and Quantum Cones
 
 <details>
 <summary>Result</summary>
 
-<p>Let h be the whole-space log-correlated Gaussian field on ℝ<sup>d</sup>, with covariance kernel log(1/|x − y|) modulo an additive constant, and let h<sub>r</sub>(0) denote its spherical average. For odd d = 2m + 1 ≥ 3, set S<sub>t</sub> = h<sub>e<sup>−t</sup></sub>(0) − h<sub>1</sub>(0), t ∈ ℝ. As a continuous process, S has the same law as ∫<sub>0</sub><sup>∞</sup> q<sub>d</sub>(u)(B<sub>t−u</sub> − B<sub>−u</sub>) du, where B is standard two-sided Brownian motion and q<sub>d</sub>(u) = (d − 2)e<sup>−2u</sup>(1 − e<sup>−2u</sup>)<sup>(d−4)/2</sup> for u &gt; 0.</p>
-<p>The process has a modification locally in C<sup>m−1,α</sup> for every 0 &lt; α &lt; 1. The increment variance of its (m − 1)st derivative is comparable to r² log(1/|r|) as r → 0, uniformly in the base time. An mth derivative does not exist in the mean-square sense.</p>
-<p>The note also computes the exact spectrum of the generalized derivative of S. In odd dimensions this spectrum is nonrational, excluding a finite-dimensional linear Gaussian state-space realization; an explicit time-homogeneous Markov representation is instead constructed using an infinite-dimensional memory profile.</p>
+<p>For the whole-space log-correlated Gaussian field in odd dimension d = 2m + 1 ≥ 3, the centered spherical average Sₜ = hₑ⁻ᵗ(0) − h₁(0) is identified as a Brownian moving average with kernel q_d(u) = (d − 2)e⁻²ᵘ(1 − e⁻²ᵘ)^((d−4)/2). It has a modification in C_loc^(m−1,α) for every 0 &lt; α &lt; 1, highest-derivative increment variance comparable to r² log(1/|r|), and no mth mean-square derivative. An explicit continuous function-valued Brownian memory state gives a Markov lift for every integer d &gt; 2. In odd dimension, the non-rational spectrum excludes a finite-dimensional linear time-invariant Gaussian state-space representation of the radial derivative.</p>
+<p>For γ ∈ (0, √(2d)), Q = d/γ + γ/2 and β &lt; Q, recenter the radial process at its first global hitting time of level −b after subtracting drift (Q − β)t. As b → ∞, the recentered process converges in total variation on every fixed half-line. Combining the limiting radial process S∞,s + βs with an independent spherical projection constructs the β-quantum cone. At any deterministic center, the corresponding rescaling of the field with a β-logarithmic singularity converges in total variation to the cone on every fixed ball, in the space of distributions.</p>
 
-<p><em>odd-dimensional-sphere-averages.pdf: Theorems A and B, p. 3; Proposition 2.1 and Theorem C, p. 4; sharp regularity and memory representation, §§5.2–5.4, pp. 9–12.</em></p>
-
-</details>
-
-- [Sphere Averages in Odd Dimensions](papers/odd-dimensional-sphere-averages.pdf) (13 pages)
-
-**Lean:** coming soon
-
-### Quantum Cones in Odd Dimensions
-
-<details>
-<summary>Result</summary>
-
-<p>Let d ≥ 3 be odd, let 0 &lt; γ &lt; √(2d), and fix β &lt; Q = d/γ + γ/2. For a whole-space log-correlated Gaussian field h on ℝ<sup>d</sup>, normalized by h<sub>1</sub>(0) = 0, write S<sub>t</sub> = h<sub>e<sup>−t</sup></sub>(0). For b &gt; 0, define σ<sub>b</sub> = inf{t ∈ ℝ : S<sub>t</sub> − (Q − β)t = −b} and S<sub>b,s</sub> = S<sub>s+σ<sub>b</sub></sub> − S<sub>σ<sub>b</sub></sub>.</p>
-<p>For each fixed T ∈ ℝ, the law of (S<sub>b,s</sub>)<sub>s≥T</sub> converges in total variation as b → ∞. These limits are compatible as T varies and define a continuous process S<sub>∞</sub> on ℝ with S<sub>∞,0</sub> = 0. The β-quantum cone is obtained by taking spherical averages S<sub>∞,s</sub> + βs and adding an independent copy of the field’s projection with zero average on every centered sphere.</p>
-<p>More precisely, set h<sup>(b)</sup>(x) = h(e<sup>−σ<sub>b</sub></sup>x) − β log|e<sup>−σ<sub>b</sub></sup>x| − Qσ<sub>b</sub> + b. On every fixed ball B(0, R), the law of h<sup>(b)</sup>, viewed as a random distribution, converges in total variation to the cone field normalized to have unit-sphere average zero. The same local-limit statement holds about any fixed deterministic center after translating and normalizing the original field there.</p>
-
-<p><em>odd-dimensional-quantum-cones.pdf: Theorem B and Definition 2.1, p. 4; equations (2.11)–(2.12) and Theorem C, p. 5.</em></p>
+<p><em>Consolidated manuscript: Theorems A–C, pp. 4–5; Theorem 7.1 (sharp regularity), pp. 25–26; Proposition 7.2 (finite linear-state obstruction), p. 26; Theorem 7.3 (memory-state Markov lift), pp. 26–27; Corollary 7.4 (long-time variance), pp. 27–28. Theorem A and the memory-state formulas also hold for every integer d &gt; 2; the cone construction is for odd d.</em></p>
 
 </details>
 
-- [Quantum Cones in Odd Dimensions](papers/odd-dimensional-quantum-cones.pdf) (26 pages)
+- [Odd-Dimensional Fields and Quantum Cones](papers/odd-dimensional-fields-and-quantum-cones.pdf) (30 pages)
 
 **Lean:** coming soon
 
@@ -192,20 +155,17 @@ The current collection contains 17 PDFs in 13 entries across 6 topic sections. E
 <details>
 <summary>Result</summary>
 
-<p>Let d ≥ 2 and let D ⊂ ℝ<sup>d</sup> be open. Consider locally finite orthogonal tilings of D by closed convex polytopes P<sub>v</sub> with marked points v in their interiors: cells are joined across shared facets, and the line between their marked points is perpendicular to the shared facet. Give each edge the conductance a(v,w) = vol<sub>d−1</sub>(P<sub>v</sub> ∩ P<sub>w</sub>)/|v−w|. Assume only that the maximum tile diameter ε<sub>n</sub> tends to zero, with no additional cell-shape or cell-volume alternative.</p>
-<p>Fix a bounded open U with closure compactly contained in D, and a fixed bounded open neighborhood K of the closure of U with closure compactly contained in D. Let h be harmonic and C<sup>2</sup> on a neighborhood of the closure of K. For sufficiently large n, there is a unique discrete harmonic function h<sub>n</sub> on the vertices in U, with boundary values h at adjacent vertices outside U. The full note proves uniform convergence to h. The recovered supplement sharpens its quantitative bound to max<sub>v∈Vₙ∩U</sub>|h<sub>n</sub>(v)−h(v)| ≤ C<sub>d,U,K</sub>‖h‖<sub>C²(K)</sub> ε<sub>n</sub><sup>4/(d+4)</sup>. Thus the planar exponent is 2/3. The 17-page note itself prints the earlier exponent 4/(3d+8); the three-page supplement supplies the sharper argument using estimates proved in that note.</p>
-<p>The mesh-only approximation also verifies the harmonic-approximation input used for uniform convergence of harmonic measure on balls and convergence of the stopped canonical walk, whose transition probabilities are proportional to a(v,w). These consequences retain the remaining domain hypotheses of the cited Bou-Rabee–Gwynne results; walk convergence is to Brownian motion modulo time parametrization. The exponent 2/3 bounds the harmonic-extension error and is not a rate of convergence for a parametrized random walk. The full note and supplement are complementary: the supplement does not replace the analytic estimates or the walk-convergence argument.</p>
+<p>For locally finite orthogonal tilings of an open D ⊂ ℝ<sup>d</sup>, d ≥ 2, give an edge (v,w) the conductance vol<sub>d−1</sub>(P<sub>v</sub> ∩ P<sub>w</sub>)/|v−w|. Assume only that the maximum tile diameter ε<sub>n</sub> tends to zero. Fix bounded open U and K with U̅ ⊂ K and K̅ ⊂ D, and let h be harmonic and C² on a neighborhood of K̅. Its discrete harmonic extension h<sub>n</sub>, using h at adjacent boundary vertices, is uniquely defined for sufficiently large n and satisfies max<sub>v∈V<sub>n</sub>∩U</sub>|h<sub>n</sub>(v) − h(v)| ≤ C<sub>d,U,K</sub>‖h‖<sub>C²(K)</sub> ε<sub>n</sub><sup>4/(d+4)</sup>. In dimension two the exponent is 2/3.</p><p>The proof uses the expected exit time of small-volume superlevel sets. Under the remaining Bou-Rabee–Gwynne domain hypotheses, it also gives convergence of harmonic measures and stopped canonical walks to Brownian motion modulo time parametrization. The harmonic-error estimate is not a rate for a parametrized random walk.</p>
 
-<p><em>mesh-only-orthogonal-tilings.pdf: setup and conductances, pp. 1–2; Theorem 1.1, p. 3; Corollary 1.2, p. 4; Section 7, pp. 16–17. mesh-only-sharper-rate.pdf: editorial scope and dependencies, p. 1, and Sections 1–3, pp. 1–3.</em></p>
+<p><em>Theorem 1.1 and improved equation (10), p. 3; Corollary 1.2, p. 4; expected-exit Lemma 6.1, p. 13; uniform estimate (80)–(81), p. 15; random-walk deduction and scope, §7, pp. 15–16.</em></p>
 
 </details>
 
-- [Mesh-Only Convergence for Orthogonal Tilings](papers/mesh-only-orthogonal-tilings.pdf) (17 pages)
-- [Sharper Mesh-Only Convergence Rates](papers/mesh-only-sharper-rate.pdf) (3 pages)
+- [Mesh-Only Convergence for Orthogonal Tilings](papers/mesh-only-tilings-and-rates.pdf) (16 pages)
 
-**Lean:** coming soon
+**Lean:** [Lean](https://github.com/leobon12/lean-formalizations/tree/main/results/mesh-only). Qualitative Dirichlet convergence. The sharper error rate and random-walk corollary are not covered by this Lean result.
 
-### Sphere Packings and Tangency-Polytope Tilings
+### Sphere Packings and Tangency Tilings
 
 <details>
 <summary>Result</summary>
@@ -214,13 +174,11 @@ The current collection contains 17 PDFs in 13 entries across 6 topic sections. E
 <p>Two balls are tangent if and only if their polytopes share a facet, and that facet lies in their common tangent hyperplane. Consequently, joining the ball centers across shared facets gives an orthogonal tiling graph. In dimensions 2, 3, and 4 respectively, each tile has at most 6, 12, and 24 facets, and B(v,r<sub>v</sub>) ⊂ P<sub>v</sub> ⊂ B(v,C<sub>d</sub>r<sub>v</sub>), where C<sub>2</sub> = 2, C<sub>3</sub> = √10, and C<sub>4</sub> = 3√2 + 2.</p>
 <p>No boundedness, connectedness, or boundary-regularity assumption on Ω is required. Local finiteness is relative to Ω, so accumulation at its boundary is allowed. Exact coverage is by the tangency polytopes; the balls need not cover Ω. The three PDFs give separate constructions in the three dimensions. The four-dimensional construction includes an exact-integer computer-assisted interpolation step and its complete checker.</p>
 
-<p><em>circle-packing-planar-domains.pdf: Theorem 1.1 and Corollary 1.2, p. 1; sphere-packing-three-dimensions.pdf: Theorem 1.1, p. 1; sphere-packing-four-dimensions.pdf: Theorem 1, p. 1, Lemma 5, pp. 4–5, and Appendix A, pp. 9–12.</em></p>
+<p><em>Sphere Packings and Tangency Tilings in Dimensions Two, Three, and Four: Theorem 1, p. 2; shared Lemmas 2–5, pp. 2–4; planar construction, pp. 4–6; three-dimensional construction, pp. 7–9; four-dimensional construction, pp. 9–16; exact checker, Appendix A, pp. 16–20.</em></p>
 
 </details>
 
-- [Dimension 2](papers/circle-packing-planar-domains.pdf) (5 pages)
-- [Dimension 3](papers/sphere-packing-three-dimensions.pdf) (8 pages)
-- [Dimension 4](papers/sphere-packing-four-dimensions.pdf) (13 pages)
+- [Sphere Packings and Tangency Tilings](papers/sphere-packings-and-tangency-tilings.pdf) (20 pages)
 
 **Lean:** coming soon
 
@@ -231,23 +189,20 @@ The current collection contains 17 PDFs in 13 entries across 6 topic sections. E
 <details>
 <summary>Result</summary>
 
-<p>Consider a random countable collection of compact connected planar cells with nonempty interiors, disjoint interiors, and boundaries of zero area. Adjacent cells are distinct and intersect, their adjacency graph is connected and locally finite, and each adjacent pair H,K has a symmetric conductance c(H,K) &gt; 0. The <strong>singular-set version</strong> assumes a closed set S with one-dimensional Hausdorff measure ℋ<sup>1</sup>(S) = 0, coverage of ℂ ∖ S, spatial local finiteness off S, and connectedness of the induced cell graph along every horizontal or vertical segment avoiding S. The <strong>whole-plane version</strong> instead requires coverage of all ℂ and connectedness along every segment on almost every horizontal and vertical line; it allows spatial accumulation without a closed ℋ<sup>1</sup>-null witness. These are distinct geometric hypotheses.</p>
-<p>In either version, assume mass transport modulo translations and positive dilations and ergodicity under these similarities. Write a<sub>H</sub> = Area(H), π(H) = ∑<sub>K∼H</sub>c(H,K), and π<sup>*</sup>(H) = ∑<sub>K∼H</sub>c(H,K)<sup>−1</sup>. If H<sub>0</sub> is the almost surely unique cell whose interior contains the origin, the required moment is 𝔼[(diam(H<sub>0</sub>)<sup>2</sup>/a<sub>H₀</sub>)(π(H<sub>0</sub>) + π<sup>*</sup>(H<sub>0</sub>))] &lt; ∞. The singular-set paper also specifies its geometric environment topology and a measurable full-probability class admitting the required witnesses; it derives graph local finiteness and the null-boundary property from its hypotheses.</p>
-<p>Conditionally on almost every environment, the canonical walk reflected off infinity has a conservative area clock, with transition rate c(H,K)/a<sub>H</sub> and mean holding time a<sub>H</sub>/π(H). Choose representatives inside the cells, interpolate ordinary jumps, and extend the spatial path through reflection times as in the construction. From every fixed starting cell, (εZ<sub>t/ε²</sub>)<sub>t≥0</sub> converges in law, locally uniformly in time as ε ↓ 0, to Brownian motion with a deterministic finite positive-definite covariance matrix Σ. Assigning the exact holding time a<sub>H</sub>/π(H) at every visit gives the same limit and the same Σ. Neither manuscript asserts uniformity over starting cells chosen as a function of ε.</p>
+<p>For random planar cell configurations locally finite away from a closed singular-set witness S of zero one-dimensional Hausdorff measure, assume coverage off S, line connectivity off S, the specified geometric Borel topology and measurable witness-existence class, mass transport modulo translations and positive dilations, and the finite diameter–conductance moment. There is a finite-specific-energy harmonic coordinate with uniformly sublinear corrector.</p><p>With ergodicity modulo the same similarities, the area-clock reflected walk is conservative and recurrent. Its interpolated diffusive rescaling converges from every fixed starting cell to Brownian motion with deterministic positive-definite covariance. Exact holding times Area(H)/π(H) give the same limit. Every graph end has a unique spatial image in S ∪ {∞}, and the path never reaches a spatial-infinity end. Moving-start uniformity is not asserted.</p>
 
-<p><em>reflected-random-walks.pdf: Definition 1.1, Assumption 1.2 and Definition 1.3, pp. 3–4; Theorem 1.5, p. 5; Lemmas 3.1–3.5, pp. 10–12. reflected-walks-ae-lines.pdf: Definition 1.1 and (AE-LC), p. 2; (FE), p. 3; Theorem 1.3 and fixed-start scope, pp. 4–5.</em></p>
+<p><em>reflected-random-walks.pdf: Definition 1.1, Assumption 1.2 and Definition 1.3, pp. 3–4; Theorems 1.4–1.5, pp. 4–5; geometric consequences, pp. 10–12.</em></p>
 
 </details>
 
 - [Reflected Random Walks with Spatial Singularities](papers/reflected-random-walks.pdf) (40 pages)
-- [Whole-plane version](papers/reflected-walks-ae-lines.pdf) (45 pages)
 
-**Lean:** coming soon
+**Lean:** [Lean](https://github.com/leobon12/lean-formalizations/tree/main/results/reflected-gms). Accompanying formalization of the earlier geometric-topology revision. The linked guide records its correspondence with the current PDF.
 
 ## Versions and scope
 
 One consolidated SDP paper contains the constant-comparable median scale, continuous graph limits, and nontriviality. It replaces the separate graph-limit and non-collapse PDFs. Its Section 8 integrates the nontriviality argument with the preceding results and uses the same model and arbitrary deterministic median normalization. Superseded files remain recoverable through repository history.
 
-The three-page sharper mesh-rate supplement transcribes the original conversation and includes the source argument as an embedded text attachment; read it with the full mesh-only note.
+The geodesic, odd-dimensional field, mesh-only tiling, and sphere-packing papers integrate their former companion notes. Each entry links to one manuscript with shared definitions and the distinct results retained. The whole-plane walk variant has been removed from this selection; its different hypotheses are not claimed to be superseded by the retained singular-set paper. Earlier files remain in repository history.
 
 The machine-readable [catalogue](catalogue.json) records the selected file sizes and SHA-256 hashes.
