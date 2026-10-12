@@ -4,58 +4,26 @@ Research notes developed with ChatGPT, curated by Leonardo Bonanno. These are un
 
 [Research website](https://leobon12.github.io/research.html#ai-generated-research)
 
-The current collection contains 18 PDFs presenting 15 results in 6 topic sections. Expand a result below to read its statement. PDF links open GitHub’s document preview.
+The current collection contains 17 PDFs in 13 entries across 6 topic sections. Expand a result below to read its statement. PDF links open GitHub’s document preview.
 
 ## Directed Distances in Random Planar Maps
 
-### The 3/8 Scale for Shortest Directed Paths
+### Shortest Directed Paths: Scale and Continuum Limits
 
 <details>
 <summary>Result</summary>
 
 <p class="research-description">Let M<sub>0,n</sub> be the unconditioned KMSW cell encoded by n independent steps, each uniform on {(1, −1), (−1, 0), (0, 1)}. The cell consists of its n + 1 active edges with their endpoint identifications; missing boundary edges are excluded. Let Δ<sub>n</sub> be the maximum, over ordered vertex pairs joined by a directed path inside the cell, of the minimum number of edges in such a path.</p>
 <p class="research-description">There are deterministic constants c, C &gt; 0 such that, for every integer n ≥ 0 and every real A ≥ 1, ℙ[Δ<sub>n</sub> &gt; A(n + 1)<sup>3/8</sup>] ≤ C e<sup>−cA</sup>.</p>
-<p class="research-description">For every n ≥ 1 and every median m<sub>n</sub> of Δ<sub>n</sub>—meaning ℙ[Δ<sub>n</sub> ≤ m<sub>n</sub>] ≥ 1/2 and ℙ[Δ<sub>n</sub> ≥ m<sub>n</sub>] ≥ 1/2—one has c n<sup>3/8</sup> ≤ m<sub>n</sub> ≤ C n<sup>3/8</sup>, with constants independent of n and of the choice of median.</p>
-
-<p><em>SDP Graph Limits, Theorem 1.2, equations (1.7)–(1.8), p. 3; model and distance definition (1.4), p. 2.</em></p>
-
-</details>
-
-- [The 3/8 Scale for Shortest Directed Paths](papers/sdp-graph-limits.pdf) (22 pages)
-
-**Lean:** coming soon
-
-### Tightness and Continuous SDP Limits
-
-<details>
-<summary>Result</summary>
-
-<p class="research-description">Let M be the uniform infinite bipolar-oriented triangulation. Write p(e) = (i(e), j(e)) for the times of an edge e in the north- and west-going primal Peano explorations, rooted at the same edge and oriented so both times increase along directed paths. For edges e ≼ f, meaning that a directed path can start with e and end with f, let d<sup>•</sup><sub>M</sub>(e, f) be the minimum number of edges in such a path, with d<sup>•</sup><sub>M</sub>(e, e) = 1. Comparability is equivalent to p(e) ≤ p(f) coordinatewise.</p>
+<p class="research-description">For every n ≥ 1 and every median m<sub>n</sub> of Δ<sub>n</sub>—meaning ℙ[Δ<sub>n</sub> ≤ m<sub>n</sub>] ≥ 1/2 and ℙ[Δ<sub>n</sub> ≥ m<sub>n</sub>] ≥ 1/2—one has c n<sup>3/8</sup> ≤ m<sub>n</sub> ≤ C n<sup>3/8</sup>, with constants independent of n and of the choice of median.</p><p class="research-description">Let M be the uniform infinite bipolar-oriented triangulation. Write p(e) = (i(e), j(e)) for the times of an edge e in the north- and west-going primal Peano explorations, rooted at the same edge and oriented so both times increase along directed paths. For edges e ≼ f, meaning that a directed path can start with e and end with f, let d<sup>•</sup><sub>M</sub>(e, f) be the minimum number of edges in such a path, with d<sup>•</sup><sub>M</sub>(e, e) = 1. Comparability is equivalent to p(e) ≤ p(f) coordinatewise.</p>
 <p class="research-description">For each n ≥ 1, choose any median m<sub>n</sub> of the maximal finite vertex-to-vertex SDP distance in an unconditioned n-increment KMSW cell with uniform increments from {(1, −1), (−1, 0), (0, 1)}. Put U<sub>n</sub> = {p(e)/n : e ∈ E(M)}, W<sub>n</sub> = {(x, y) ∈ U<sub>n</sub> × U<sub>n</sub> : x ≤ y coordinatewise}, and D<sub>n</sub>(p(e)/n, p(f)/n) = d<sup>•</sup><sub>M</sub>(e, f)/m<sub>n</sub>. Let Γ<sub>n</sub> = {(w, D<sub>n</sub>(w)) : w ∈ W<sub>n</sub>}.</p>
-<p class="research-description">The laws of (W<sub>n</sub>, Γ<sub>n</sub>) are tight in 𝔽(ℝ<sup>4</sup>) × 𝔽(ℝ<sup>5</sup>), where 𝔽 denotes closed subsets with the Fell topology. Every sequence n → ∞ therefore has a subsequence converging in law. Every such limit is almost surely (W, {(w, D(w)) : w ∈ W}) for a locally bounded continuous function D : W → [0, ∞): above every point of W there is exactly one finite limiting height. The function is uniquely determined by its limiting graph; uniqueness of the subsequential law is not asserted.</p>
+<p class="research-description">The laws of (W<sub>n</sub>, Γ<sub>n</sub>) are tight in 𝔽(ℝ<sup>4</sup>) × 𝔽(ℝ<sup>5</sup>), where 𝔽 denotes closed subsets with the Fell topology. Every sequence n → ∞ therefore has a subsequence converging in law. Every such limit is almost surely (W, {(w, D(w)) : w ∈ W}) for a locally bounded continuous function D : W → [0, ∞): above every point of W there is exactly one finite limiting height. The function is uniquely determined by its limiting graph; uniqueness of the subsequential law is not asserted.</p><p>Every such subsequential limiting function is almost surely not identically zero: with probability one, there are distinct comparable x and y with D(x,y) &gt; 0. Section 8 proves this using the preceding results for every deterministic choice of medians. No extra joint convergence with quantum-surface data is required. Uniqueness of the subsequential law and all-pairs point separation are not asserted.</p>
 
-<p><em>SDP Graph Limits, definitions (1.2)–(1.6) and Theorem 1.1, pp. 2–3; stochastic equicontinuity and local height bounds, Propositions 7.2–7.3, pp. 18–19; graph-limit proof, pp. 19–20.</em></p>
-
-</details>
-
-- [Tightness and Continuous SDP Limits](papers/sdp-graph-limits.pdf) (22 pages)
-
-**Lean:** coming soon
-
-### Nontrivial SDP Limits
-
-<details>
-<summary>Result</summary>
-
-<p class="research-description">On the uniform infinite bipolar-oriented triangulation M, give each edge e its north- and west-going Peano times p(e), and let d<sup>•</sup><sub>M</sub>(e, f) be the shortest directed-path length from first edge e to last edge f, counting both and taking d<sup>•</sup><sub>M</sub>(e, e) = 1. Let Δ<sub>n</sub> be the maximum finite vertex-to-vertex SDP distance in a fresh n-increment KMSW cell with independent uniform steps from {(1, −1), (−1, 0), (0, 1)}, and choose its upper integer median m<sub>n</sub> = max{m ∈ ℕ : ℙ[Δ<sub>n</sub> ≥ m] ≥ 1/2}. Divide the exploration times by n and the distances by m<sub>n</sub>.</p>
-<p class="research-description">Set U<sub>n</sub> = {p(e)/n : e ∈ E(M)}, W<sub>n</sub> = {(x, y) ∈ U<sub>n</sub> × U<sub>n</sub> : x ≤ y coordinatewise}, D<sub>n</sub>(p(e)/n, p(f)/n) = d<sup>•</sup><sub>M</sub>(e, f)/m<sub>n</sub>, and Γ<sub>n</sub> = Graph(W<sub>n</sub>, D<sub>n</sub>). Suppose that along a deterministic sequence n<sub>r</sub> → ∞ these closed domains and graphs converge in law, jointly with the rescaled primal and dual peanosphere data, to (W, Γ), where almost surely Γ = Graph(W, D) for a finite-valued function D : W → [0, ∞).</p>
-<p class="research-description">Then ℙ[there exist x ≠ y with (x, y) ∈ W and D(x, y) &gt; 0] = 1. In the joint realization constructed in the note, almost surely infinitely many pairwise disjoint unit north-Peano cells contain such a positive-distance witness. Thus the limiting function is almost surely not identically zero; the statement does not require, or establish, positive distance for every distinct comparable pair.</p>
-
-<p><em>Non-collapse of Median-Normalized Shortest Directed Paths, Input 1.1 and Theorem 1.2, p. 2; setup and normalization, pp. 1–2.</em></p>
+<p><em>Shortest Directed Paths in Bipolar-Oriented Triangulations: Theorems 1.1–1.2, p. 2; Theorem 8.1 and its proof, pp. 19–21.</em></p>
 
 </details>
 
-- [Nontrivial SDP Limits](papers/sdp-nontrivial-limits.pdf) (7 pages)
+- [Shortest Directed Paths: Scale and Continuum Limits](papers/sdp-scale-and-continuum-limits.pdf) (22 pages)
 
 **Lean:** coming soon
 
@@ -278,7 +246,7 @@ The current collection contains 18 PDFs presenting 15 results in 6 topic section
 
 ## Versions and scope
 
-The later SDP graph-limit paper supplies the constant-comparable median scale and supersedes the earlier exponent-only note in this collection. Its scale and tightness results link to the same PDF. Superseded files remain recoverable through repository history.
+One consolidated SDP paper contains the constant-comparable median scale, continuous graph limits, and nontriviality. It replaces the separate graph-limit and non-collapse PDFs. Its Section 8 integrates the nontriviality argument with the preceding results and uses the same model and arbitrary deterministic median normalization. Superseded files remain recoverable through repository history.
 
 The three-page sharper mesh-rate supplement transcribes the original conversation and includes the source argument as an embedded text attachment; read it with the full mesh-only note.
 
