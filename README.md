@@ -35,7 +35,7 @@ For the uniform infinite bipolar-oriented triangulation, rescale exploration tim
 
 ### Mesh-Only Convergence for Orthogonal Tilings
 
-For orthogonal tilings in dimension d ≥ 2 with mesh ε → 0, discrete harmonic extensions of smooth harmonic boundary data converge uniformly without the original theorem’s additional geometric alternatives. For h harmonic and C<sup>2</sup> near a bounded domain compactly inside the tiled region, the supplement gives error ≤ C‖h‖<sub>C²</sub> ε<sup>4/(d+4)</sup>, hence exponent 2/3 in the plane. Harmonic measures and stopped walks also converge, with walks considered modulo time parametrization.
+For orthogonal tilings in dimension d ≥ 2 with mesh ε → 0, discrete harmonic extensions of smooth harmonic boundary data converge uniformly without the original theorem’s additional geometric alternatives. For h harmonic and C<sup>2</sup> near a bounded domain compactly inside the tiled region, the supplement gives error ≤ C‖h‖<sub>C²</sub> ε<sup>4/(d+4)</sup>, hence exponent 2/3 in the plane. Under the remaining domain hypotheses, harmonic measures on balls and stopped walks also converge, with walks considered modulo time parametrization.
 
 - [Mesh-Only Convergence for Orthogonal Tilings](papers/mesh-only-orthogonal-tilings.pdf) (17 pages)
 - [Sharper Mesh-Only Convergence Rates](papers/mesh-only-sharper-rate.pdf) (3 pages)
@@ -54,7 +54,7 @@ For every nonempty open Ω ⊂ ℝ<sup>d</sup>, d ∈ {2, 3, 4}, there is a pack
 
 ### Sphere Averages in Odd Dimensions
 
-For odd d = 2m + 1 ≥ 3, the spherical-average process S<sub>t</sub> = h<sub>e⁻ᵗ</sub>(0) − h<sub>1</sub>(0) of a log-correlated Gaussian field has an explicit Brownian convolution representation. Its paths are locally C<sup>m−1,α</sup> for every α &lt; 1, but it has no mth mean-square derivative.
+For odd d = 2m + 1 ≥ 3, the spherical-average process S<sub>t</sub> = h<sub>e⁻ᵗ</sub>(0) − h<sub>1</sub>(0) of the whole-space log-correlated Gaussian field has an explicit Brownian convolution representation. Its paths are locally C<sup>m−1,α</sup> for every 0 &lt; α &lt; 1, but it has no mth mean-square derivative.
 
 - [Sphere Averages in Odd Dimensions](papers/odd-dimensional-sphere-averages.pdf) (13 pages)
 
@@ -70,7 +70,7 @@ For odd d ≥ 3, 0 &lt; γ &lt; √(2d), and β &lt; Q = d/γ + γ/2, recenterin
 
 ### Reflected Random Walks with Spatial Singularities
 
-Under the stated connectivity, mass-transport, ergodicity, and finite-moment assumptions on a planar cell environment, the reflected walk with area-over-conductance holding times converges diffusively, for almost every environment, to Brownian motion with deterministic positive-definite covariance. The main note permits a closed singular set of zero one-dimensional Hausdorff measure; the companion treats whole-plane coverings with connectivity along almost every horizontal and vertical line.
+Under the stated connectivity, mass-transport, ergodicity, and finite-moment assumptions on a planar cell environment, the interpolated reflected walk from a fixed starting cell, with area-over-conductance holding times, converges diffusively for almost every environment to Brownian motion with deterministic positive-definite covariance. The main note permits a closed singular set of zero one-dimensional Hausdorff measure and requires spatial local finiteness off that set. The companion treats whole-plane coverings with connectivity along almost every horizontal and vertical line, without that local-finiteness requirement.
 
 - [Reflected Random Walks with Spatial Singularities](papers/reflected-random-walks.pdf) (40 pages)
 - [Whole-plane version](papers/reflected-walks-ae-lines.pdf) (45 pages)
@@ -87,7 +87,7 @@ Proposed theorem: for d ≥ 3 and Q(ξ) &gt; √(2d), the whole-space log-correl
 
 ### Conformal Covariance of Supercritical LQG
 
-For ξ &gt; ξ<sub>crit</sub>, a fixed deterministic conformal bijection φ: U → V, and h a GFF plus a continuous function on V, almost surely D<sub>h</sub>(φ(u), φ(v); V) = D<sub>h∘φ + Q log|φ′|</sub>(u, v; U) simultaneously for all u, v ∈ U, including singular endpoints.
+For ξ &gt; ξ<sub>crit</sub> with Q = Q(ξ) ∈ (0, 2), a fixed deterministic conformal bijection φ: U → V, and h a GFF plus a continuous function on V, almost surely D<sub>h</sub>(φ(u), φ(v); V) = D<sub>h∘φ + Q log|φ′|</sub>(u, v; U) simultaneously for all u, v ∈ U, including singular endpoints.
 
 - [Conformal Covariance of Supercritical LQG](papers/supercritical-conformal-covariance.pdf) (11 pages)
 

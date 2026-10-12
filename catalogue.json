@@ -65,8 +65,8 @@
   {
     "id": "mesh-only-tilings",
     "title": "Mesh-Only Convergence for Orthogonal Tilings",
-    "description": "For orthogonal tilings in dimension d ≥ 2 with mesh ε → 0, discrete harmonic extensions of smooth harmonic boundary data converge uniformly without the original theorem’s additional geometric alternatives. For h harmonic and C2 near a bounded domain compactly inside the tiled region, the supplement gives error ≤ C‖h‖C² ε4/(d+4), hence exponent 2/3 in the plane. Harmonic measures and stopped walks also converge, with walks considered modulo time parametrization.",
-    "description_html": "For orthogonal tilings in dimension d ≥ 2 with mesh ε → 0, discrete harmonic extensions of smooth harmonic boundary data converge uniformly without the original theorem’s additional geometric alternatives. For h harmonic and C<sup>2</sup> near a bounded domain compactly inside the tiled region, the supplement gives error ≤ C‖h‖<sub>C²</sub> ε<sup>4/(d+4)</sup>, hence exponent 2/3 in the plane. Harmonic measures and stopped walks also converge, with walks considered modulo time parametrization.",
+    "description": "For orthogonal tilings in dimension d ≥ 2 with mesh ε → 0, discrete harmonic extensions of smooth harmonic boundary data converge uniformly without the original theorem’s additional geometric alternatives. For h harmonic and C2 near a bounded domain compactly inside the tiled region, the supplement gives error ≤ C‖h‖C² ε4/(d+4), hence exponent 2/3 in the plane. Under the remaining domain hypotheses, harmonic measures on balls and stopped walks also converge, with walks considered modulo time parametrization.",
+    "description_html": "For orthogonal tilings in dimension d ≥ 2 with mesh ε → 0, discrete harmonic extensions of smooth harmonic boundary data converge uniformly without the original theorem’s additional geometric alternatives. For h harmonic and C<sup>2</sup> near a bounded domain compactly inside the tiled region, the supplement gives error ≤ C‖h‖<sub>C²</sub> ε<sup>4/(d+4)</sup>, hence exponent 2/3 in the plane. Under the remaining domain hypotheses, harmonic measures on balls and stopped walks also converge, with walks considered modulo time parametrization.",
     "lean_status": "coming soon",
     "files": [
       {
@@ -128,8 +128,8 @@
   {
     "id": "odd-dimensional-sphere-averages",
     "title": "Sphere Averages in Odd Dimensions",
-    "description": "For odd d = 2m + 1 ≥ 3, the spherical-average process St = he⁻ᵗ(0) − h1(0) of a log-correlated Gaussian field has an explicit Brownian convolution representation. Its paths are locally Cm−1,α for every α < 1, but it has no mth mean-square derivative.",
-    "description_html": "For odd d = 2m + 1 ≥ 3, the spherical-average process S<sub>t</sub> = h<sub>e⁻ᵗ</sub>(0) − h<sub>1</sub>(0) of a log-correlated Gaussian field has an explicit Brownian convolution representation. Its paths are locally C<sup>m−1,α</sup> for every α &lt; 1, but it has no mth mean-square derivative.",
+    "description": "For odd d = 2m + 1 ≥ 3, the spherical-average process St = he⁻ᵗ(0) − h1(0) of the whole-space log-correlated Gaussian field has an explicit Brownian convolution representation. Its paths are locally Cm−1,α for every 0 < α < 1, but it has no mth mean-square derivative.",
+    "description_html": "For odd d = 2m + 1 ≥ 3, the spherical-average process S<sub>t</sub> = h<sub>e⁻ᵗ</sub>(0) − h<sub>1</sub>(0) of the whole-space log-correlated Gaussian field has an explicit Brownian convolution representation. Its paths are locally C<sup>m−1,α</sup> for every 0 &lt; α &lt; 1, but it has no mth mean-square derivative.",
     "lean_status": "coming soon",
     "files": [
       {
@@ -164,8 +164,8 @@
   {
     "id": "reflected-random-walks",
     "title": "Reflected Random Walks with Spatial Singularities",
-    "description": "Under the stated connectivity, mass-transport, ergodicity, and finite-moment assumptions on a planar cell environment, the reflected walk with area-over-conductance holding times converges diffusively, for almost every environment, to Brownian motion with deterministic positive-definite covariance. The main note permits a closed singular set of zero one-dimensional Hausdorff measure; the companion treats whole-plane coverings with connectivity along almost every horizontal and vertical line.",
-    "description_html": "Under the stated connectivity, mass-transport, ergodicity, and finite-moment assumptions on a planar cell environment, the reflected walk with area-over-conductance holding times converges diffusively, for almost every environment, to Brownian motion with deterministic positive-definite covariance. The main note permits a closed singular set of zero one-dimensional Hausdorff measure; the companion treats whole-plane coverings with connectivity along almost every horizontal and vertical line.",
+    "description": "Under the stated connectivity, mass-transport, ergodicity, and finite-moment assumptions on a planar cell environment, the interpolated reflected walk from a fixed starting cell, with area-over-conductance holding times, converges diffusively for almost every environment to Brownian motion with deterministic positive-definite covariance. The main note permits a closed singular set of zero one-dimensional Hausdorff measure and requires spatial local finiteness off that set. The companion treats whole-plane coverings with connectivity along almost every horizontal and vertical line, without that local-finiteness requirement.",
+    "description_html": "Under the stated connectivity, mass-transport, ergodicity, and finite-moment assumptions on a planar cell environment, the interpolated reflected walk from a fixed starting cell, with area-over-conductance holding times, converges diffusively for almost every environment to Brownian motion with deterministic positive-definite covariance. The main note permits a closed singular set of zero one-dimensional Hausdorff measure and requires spatial local finiteness off that set. The companion treats whole-plane coverings with connectivity along almost every horizontal and vertical line, without that local-finiteness requirement.",
     "lean_status": "coming soon",
     "files": [
       {
@@ -210,8 +210,8 @@
   {
     "id": "supercritical-conformal-covariance",
     "title": "Conformal Covariance of Supercritical LQG",
-    "description": "For ξ > ξcrit, a fixed deterministic conformal bijection φ: U → V, and h a GFF plus a continuous function on V, almost surely Dh(φ(u), φ(v); V) = Dh∘φ + Q log|φ′|(u, v; U) simultaneously for all u, v ∈ U, including singular endpoints.",
-    "description_html": "For ξ &gt; ξ<sub>crit</sub>, a fixed deterministic conformal bijection φ: U → V, and h a GFF plus a continuous function on V, almost surely D<sub>h</sub>(φ(u), φ(v); V) = D<sub>h∘φ + Q log|φ′|</sub>(u, v; U) simultaneously for all u, v ∈ U, including singular endpoints.",
+    "description": "For ξ > ξcrit with Q = Q(ξ) ∈ (0, 2), a fixed deterministic conformal bijection φ: U → V, and h a GFF plus a continuous function on V, almost surely Dh(φ(u), φ(v); V) = Dh∘φ + Q log|φ′|(u, v; U) simultaneously for all u, v ∈ U, including singular endpoints.",
+    "description_html": "For ξ &gt; ξ<sub>crit</sub> with Q = Q(ξ) ∈ (0, 2), a fixed deterministic conformal bijection φ: U → V, and h a GFF plus a continuous function on V, almost surely D<sub>h</sub>(φ(u), φ(v); V) = D<sub>h∘φ + Q log|φ′|</sub>(u, v; U) simultaneously for all u, v ∈ U, including singular endpoints.",
     "lean_status": "coming soon",
     "files": [
       {
