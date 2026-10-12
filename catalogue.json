@@ -2,13 +2,15 @@
   {
     "id": "sdp-exponent",
     "title": "The 3/8 Exponent for Shortest Directed Paths",
-    "description": "The median n^(3/8+o(1)) scale for the maximum finite shortest directed-path distance in an unconditioned KMSW cell.",
+    "description": "In a KMSW cell encoded by n independent uniform steps from {(1, −1), (−1, 0), (0, 1)}, let Δn be the largest finite shortest directed-path distance, measured in edges. Every median mn of Δn satisfies mn = n3/8+o(1).",
+    "description_html": "In a KMSW cell encoded by n independent uniform steps from {(1, −1), (−1, 0), (0, 1)}, let Δ<sub>n</sub> be the largest finite shortest directed-path distance, measured in edges. Every median m<sub>n</sub> of Δ<sub>n</sub> satisfies m<sub>n</sub> = n<sup>3/8+o(1)</sup>.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "sdp-three-eighths-exponent.pdf",
         "label": "PDF",
-        "pages": 14,
         "sha256": "ac17d1502b6ededab62e554226771a12f93c4fc0bb6014b20add546e71a28080",
+        "pages": 14,
         "bytes": 362123,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/sdp-three-eighths-exponent.pdf",
         "repository_path": "papers/sdp-three-eighths-exponent.pdf"
@@ -18,13 +20,15 @@
   {
     "id": "ldp-graph-limits",
     "title": "Graph Limits of Longest Directed Paths",
-    "description": "Tightness and continuous graph-valued subsequential limits of the rescaled longest directed-path field.",
+    "description": "For the uniform infinite bipolar-oriented triangulation, rescale north- and west-going exploration times by n and longest directed-path lengths by n3/4. The resulting fields are tight, and every subsequential closed-graph limit is almost surely a locally bounded continuous function on the limiting domain of directed-comparable edge pairs.",
+    "description_html": "For the uniform infinite bipolar-oriented triangulation, rescale north- and west-going exploration times by n and longest directed-path lengths by n<sup>3/4</sup>. The resulting fields are tight, and every subsequential closed-graph limit is almost surely a locally bounded continuous function on the limiting domain of directed-comparable edge pairs.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "ldp-graph-limits.pdf",
         "label": "PDF",
-        "pages": 15,
         "sha256": "a287577b37a5c5e230339c7274a20b833d09cc6cc4a3282ff00c3a7e935846d0",
+        "pages": 15,
         "bytes": 396617,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/ldp-graph-limits.pdf",
         "repository_path": "papers/ldp-graph-limits.pdf"
@@ -34,13 +38,15 @@
   {
     "id": "sdp-noncollapse",
     "title": "Nontrivial Limits of Shortest Directed Paths",
-    "description": "Noncollapse of graph-valued, median-normalized limits, with a companion note on graph tightness.",
+    "description": "For the uniform infinite bipolar-oriented triangulation, rescale exploration times by n and shortest directed-path lengths by the upper integer median of the maximal finite distance in an n-step KMSW cell. Subsequential closed-graph limits are continuous functions. In limits taken jointly with the primal and dual peanosphere data, the function is almost surely not identically zero.",
+    "description_html": "For the uniform infinite bipolar-oriented triangulation, rescale exploration times by n and shortest directed-path lengths by the upper integer median of the maximal finite distance in an n-step KMSW cell. Subsequential closed-graph limits are continuous functions. In limits taken jointly with the primal and dual peanosphere data, the function is almost surely not identically zero.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "sdp-nontrivial-limits.pdf",
         "label": "PDF",
-        "pages": 7,
         "sha256": "982490315e61913d88f657f091d35374f3bdf0e0e80d0b785c1d2552f00f4a81",
+        "pages": 7,
         "bytes": 302448,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/sdp-nontrivial-limits.pdf",
         "repository_path": "papers/sdp-nontrivial-limits.pdf"
@@ -48,8 +54,8 @@
       {
         "filename": "sdp-graph-limits.pdf",
         "label": "Graph limits",
-        "pages": 22,
         "sha256": "6e4db3a747d6ff9a4599aba4fecd00272cbfe71a2be135bfa2a28ab6f236fafd",
+        "pages": 22,
         "bytes": 381219,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/sdp-graph-limits.pdf",
         "repository_path": "papers/sdp-graph-limits.pdf"
@@ -59,13 +65,15 @@
   {
     "id": "mesh-only-tilings",
     "title": "Mesh-Only Convergence for Orthogonal Tilings",
-    "description": "Dirichlet approximation, harmonic measure, and walk convergence up to time parameterization. A recovered supplement gives harmonic-extension error of order mesh^(4/(d+4)), including the planar exponent 2/3.",
+    "description": "For orthogonal tilings in dimension d ≥ 2 with mesh ε → 0, discrete harmonic extensions of smooth harmonic boundary data converge uniformly without the original theorem’s additional geometric alternatives. For h harmonic and C2 near a bounded domain compactly inside the tiled region, the supplement gives error ≤ C‖h‖C² ε4/(d+4), hence exponent 2/3 in the plane. Harmonic measures and stopped walks also converge, with walks considered modulo time parametrization.",
+    "description_html": "For orthogonal tilings in dimension d ≥ 2 with mesh ε → 0, discrete harmonic extensions of smooth harmonic boundary data converge uniformly without the original theorem’s additional geometric alternatives. For h harmonic and C<sup>2</sup> near a bounded domain compactly inside the tiled region, the supplement gives error ≤ C‖h‖<sub>C²</sub> ε<sup>4/(d+4)</sup>, hence exponent 2/3 in the plane. Harmonic measures and stopped walks also converge, with walks considered modulo time parametrization.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "mesh-only-orthogonal-tilings.pdf",
         "label": "PDF",
-        "pages": 17,
         "sha256": "bbf65c71146de764b42ece7aa28e3dc2e781ec98fc54caee26dcdd1963316197",
+        "pages": 17,
         "bytes": 418234,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/mesh-only-orthogonal-tilings.pdf",
         "repository_path": "papers/mesh-only-orthogonal-tilings.pdf"
@@ -73,8 +81,8 @@
       {
         "filename": "mesh-only-sharper-rate.pdf",
         "label": "Sharper Mesh-Only Convergence Rates",
-        "pages": 3,
         "sha256": "b81c3fb14a70ab36b90b1d8f8682cf1cc7743d850315fae08581e41495b32719",
+        "pages": 3,
         "bytes": 329970,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/mesh-only-sharper-rate.pdf",
         "repository_path": "papers/mesh-only-sharper-rate.pdf"
@@ -84,13 +92,15 @@
   {
     "id": "sphere-packing-tilings",
     "title": "Sphere Packings and Tangency-Polytope Tilings",
-    "description": "Constructions covering arbitrary open sets by tangency polygons and polytopes in dimensions two, three, and four.",
+    "description": "For every nonempty open Ω ⊂ ℝd, d ∈ {2, 3, 4}, there is a packing by arbitrarily small balls whose tangency polytopes form a locally finite, face-to-face tiling of exactly Ω. Ball tangencies correspond precisely to shared facets. Each tile has at most 6, 12, or 24 facets in dimensions 2, 3, or 4, respectively.",
+    "description_html": "For every nonempty open Ω ⊂ ℝ<sup>d</sup>, d ∈ {2, 3, 4}, there is a packing by arbitrarily small balls whose tangency polytopes form a locally finite, face-to-face tiling of exactly Ω. Ball tangencies correspond precisely to shared facets. Each tile has at most 6, 12, or 24 facets in dimensions 2, 3, or 4, respectively.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "circle-packing-planar-domains.pdf",
         "label": "Dimension 2",
-        "pages": 5,
         "sha256": "26c19b82d0b8b0a32c9e83fec376ccdadd3b478e6a29b7c978977a67b1ad4bf3",
+        "pages": 5,
         "bytes": 219282,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/circle-packing-planar-domains.pdf",
         "repository_path": "papers/circle-packing-planar-domains.pdf"
@@ -98,8 +108,8 @@
       {
         "filename": "sphere-packing-three-dimensions.pdf",
         "label": "Dimension 3",
-        "pages": 8,
         "sha256": "0897e6d1241987053fbdbbc3f4e4669920a7b02e505642e50cbd8bffd444f02c",
+        "pages": 8,
         "bytes": 324030,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/sphere-packing-three-dimensions.pdf",
         "repository_path": "papers/sphere-packing-three-dimensions.pdf"
@@ -107,8 +117,8 @@
       {
         "filename": "sphere-packing-four-dimensions.pdf",
         "label": "Dimension 4",
-        "pages": 13,
         "sha256": "58a1a405db3d8141b397d0fb7ba74a08f3fb8a3a56a2658f87b3df86cc0a202b",
+        "pages": 13,
         "bytes": 263616,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/sphere-packing-four-dimensions.pdf",
         "repository_path": "papers/sphere-packing-four-dimensions.pdf"
@@ -118,13 +128,15 @@
   {
     "id": "odd-dimensional-sphere-averages",
     "title": "Sphere Averages in Odd Dimensions",
-    "description": "Identification, covariance, and sample-path regularity of the spherical-average process of a log-correlated Gaussian field.",
+    "description": "For odd d = 2m + 1 ≥ 3, the spherical-average process St = he⁻ᵗ(0) − h1(0) of a log-correlated Gaussian field has an explicit Brownian convolution representation. Its paths are locally Cm−1,α for every α < 1, but it has no mth mean-square derivative.",
+    "description_html": "For odd d = 2m + 1 ≥ 3, the spherical-average process S<sub>t</sub> = h<sub>e⁻ᵗ</sub>(0) − h<sub>1</sub>(0) of a log-correlated Gaussian field has an explicit Brownian convolution representation. Its paths are locally C<sup>m−1,α</sup> for every α &lt; 1, but it has no mth mean-square derivative.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "odd-dimensional-sphere-averages.pdf",
         "label": "PDF",
-        "pages": 13,
         "sha256": "0b5835ab195bebe3b101706e707fcce62423242946fe14c851946639e5098be6",
+        "pages": 13,
         "bytes": 346578,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/odd-dimensional-sphere-averages.pdf",
         "repository_path": "papers/odd-dimensional-sphere-averages.pdf"
@@ -134,13 +146,15 @@
   {
     "id": "odd-dimensional-quantum-cones",
     "title": "Quantum Cones in Odd Dimensions",
-    "description": "Construction of the quantum cone and its local-limit description in odd dimensions greater than two.",
+    "description": "For odd d ≥ 3, 0 < γ < √(2d), and β < Q = d/γ + γ/2, recentering the spherical-average process at its first crossing of −b after subtracting (Q − β)t gives a total-variation limit on each fixed radial tail as b → ∞. The associated rescaled fields converge locally in total variation to a β-quantum cone.",
+    "description_html": "For odd d ≥ 3, 0 &lt; γ &lt; √(2d), and β &lt; Q = d/γ + γ/2, recentering the spherical-average process at its first crossing of −b after subtracting (Q − β)t gives a total-variation limit on each fixed radial tail as b → ∞. The associated rescaled fields converge locally in total variation to a β-quantum cone.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "odd-dimensional-quantum-cones.pdf",
         "label": "PDF",
-        "pages": 26,
         "sha256": "7e743ab1c68a5b255a5268b2789070df9ef56ab8701b07ef071f952a3ad03a8f",
+        "pages": 26,
         "bytes": 377359,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/odd-dimensional-quantum-cones.pdf",
         "repository_path": "papers/odd-dimensional-quantum-cones.pdf"
@@ -150,13 +164,15 @@
   {
     "id": "reflected-random-walks",
     "title": "Reflected Random Walks with Spatial Singularities",
-    "description": "An invariance principle for random walks reflected at infinity, with a companion whole-plane formulation.",
+    "description": "Under the stated connectivity, mass-transport, ergodicity, and finite-moment assumptions on a planar cell environment, the reflected walk with area-over-conductance holding times converges diffusively, for almost every environment, to Brownian motion with deterministic positive-definite covariance. The main note permits a closed singular set of zero one-dimensional Hausdorff measure; the companion treats whole-plane coverings with connectivity along almost every horizontal and vertical line.",
+    "description_html": "Under the stated connectivity, mass-transport, ergodicity, and finite-moment assumptions on a planar cell environment, the reflected walk with area-over-conductance holding times converges diffusively, for almost every environment, to Brownian motion with deterministic positive-definite covariance. The main note permits a closed singular set of zero one-dimensional Hausdorff measure; the companion treats whole-plane coverings with connectivity along almost every horizontal and vertical line.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "reflected-random-walks.pdf",
         "label": "PDF",
-        "pages": 40,
         "sha256": "f23c4f7a460fa70eea888c29170cb5a0f4ddb410517d6efaf024c8c75637aa6a",
+        "pages": 40,
         "bytes": 591091,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/reflected-random-walks.pdf",
         "repository_path": "papers/reflected-random-walks.pdf"
@@ -164,8 +180,8 @@
       {
         "filename": "reflected-walks-ae-lines.pdf",
         "label": "Whole-plane version",
-        "pages": 45,
         "sha256": "854c493072d09a18d37159e77c9527d3f940bd82847fec9730ebb487de92e0df",
+        "pages": 45,
         "bytes": 591560,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/reflected-walks-ae-lines.pdf",
         "repository_path": "papers/reflected-walks-ae-lines.pdf"
@@ -175,13 +191,16 @@
   {
     "id": "higher-dimensional-metric",
     "title": "An Axiomatic Metric in Higher Dimensions",
-    "description": "A proposed proof of existence and uniqueness for a subcritical LFPP metric associated with a log-correlated field.",
+    "description": "Proposed theorem: for d ≥ 3 and Q(ξ) > √(2d), the whole-space log-correlated Gaussian field admits a metric satisfying the length-space, locality, Weyl-scaling, and translation–dilation axioms. These axioms determine the metric up to a deterministic positive constant.",
+    "status": "Proposed proof",
+    "description_html": "Proposed theorem: for d ≥ 3 and Q(ξ) &gt; √(2d), the whole-space log-correlated Gaussian field admits a metric satisfying the length-space, locality, Weyl-scaling, and translation–dilation axioms. These axioms determine the metric up to a deterministic positive constant.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "higher-dimensional-lqg-metric.pdf",
         "label": "PDF",
-        "pages": 32,
         "sha256": "e2c8ea025b93c9e553bc50a61fa04b23667a511ba79a02a9bcbdbd647b63f6b1",
+        "pages": 32,
         "bytes": 266466,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/higher-dimensional-lqg-metric.pdf",
         "repository_path": "papers/higher-dimensional-lqg-metric.pdf"
@@ -191,13 +210,15 @@
   {
     "id": "supercritical-conformal-covariance",
     "title": "Conformal Covariance of Supercritical LQG",
-    "description": "Conformal coordinate changes for the supercritical LQG metric, including singular endpoints.",
+    "description": "For ξ > ξcrit, a fixed deterministic conformal bijection φ: U → V, and h a GFF plus a continuous function on V, almost surely Dh(φ(u), φ(v); V) = Dh∘φ + Q log|φ′|(u, v; U) simultaneously for all u, v ∈ U, including singular endpoints.",
+    "description_html": "For ξ &gt; ξ<sub>crit</sub>, a fixed deterministic conformal bijection φ: U → V, and h a GFF plus a continuous function on V, almost surely D<sub>h</sub>(φ(u), φ(v); V) = D<sub>h∘φ + Q log|φ′|</sub>(u, v; U) simultaneously for all u, v ∈ U, including singular endpoints.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "supercritical-conformal-covariance.pdf",
         "label": "PDF",
-        "pages": 11,
         "sha256": "d5efcdbb7cf5ac8db89e9ecb105bca4c5d1c45ec17a0ceebb8f9feb33dbfaf9b",
+        "pages": 11,
         "bytes": 313046,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/supercritical-conformal-covariance.pdf",
         "repository_path": "papers/supercritical-conformal-covariance.pdf"
@@ -207,13 +228,15 @@
   {
     "id": "small-gamma-dimension",
     "title": "The Small-γ LQG Dimension Expansion",
-    "description": "A proposed small-parameter dimension expansion, with its leading coefficient characterized by a Gaussian variational problem.",
+    "description": "Proposed asymptotic: dγ = 2 + kγ4/3 + o(γ4/3) as γ ↓ 0, for a deterministic k ∈ (0, ∞). The coefficient is characterized by a Gaussian variational limit; its numerical value is not evaluated.",
+    "description_html": "Proposed asymptotic: d<sub>γ</sub> = 2 + kγ<sup>4/3</sup> + o(γ<sup>4/3</sup>) as γ ↓ 0, for a deterministic k ∈ (0, ∞). The coefficient is characterized by a Gaussian variational limit; its numerical value is not evaluated.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "small-gamma-lqg-dimension.pdf",
         "label": "PDF",
-        "pages": 17,
         "sha256": "0f8e92b2fee970fdcf70d238940b8dddbd002b7e83494c00d5741f14119fcd3e",
+        "pages": 17,
         "bytes": 393910,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/small-gamma-lqg-dimension.pdf",
         "repository_path": "papers/small-gamma-lqg-dimension.pdf"
@@ -223,13 +246,15 @@
   {
     "id": "gaussian-lqg-distance",
     "title": "Gaussian Fluctuations of LQG Distance",
-    "description": "A proposed first-order Gaussian fluctuation theorem for small-parameter LQG distance under global square-crossing median normalization.",
+    "description": "Proposed theorem: for a whole-plane GFF normalized by h1(0) = 0, normalize the metric so the median global left–right distance across the unit square is one. Then (Dhγ(0, 1) − 1)/γ converges in law to N(−q/2, 3/8), where q < 0 is the median of the minimum, over y ∈ [0, 1], of ∫01 h(x + iy) dx. The line integrals are defined by L2 limits.",
+    "description_html": "Proposed theorem: for a whole-plane GFF normalized by h<sub>1</sub>(0) = 0, normalize the metric so the median global left–right distance across the unit square is one. Then (D<sub>h</sub><sup>γ</sup>(0, 1) − 1)/γ converges in law to N(−q/2, 3/8), where q &lt; 0 is the median of the minimum, over y ∈ [0, 1], of ∫<sub>0</sub><sup>1</sup> h(x + iy) dx. The line integrals are defined by L<sup>2</sup> limits.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "gaussian-lqg-distance.pdf",
         "label": "PDF",
-        "pages": 17,
         "sha256": "bcb3e24f71fefd7f0c5b6d951814166e2d2bf4e9c5c8c7bc36c5442e9e772331",
+        "pages": 17,
         "bytes": 411030,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/gaussian-lqg-distance.pdf",
         "repository_path": "papers/gaussian-lqg-distance.pdf"
@@ -239,13 +264,15 @@
   {
     "id": "higher-dimensional-lfpp",
     "title": "Higher-Dimensional LFPP Exponents",
-    "description": "Small-parameter bounds identifying the logarithmic exponent 4/3 for LFPP in each fixed dimension d ≥ 2.",
+    "description": "For every fixed d ≥ 2 and sufficiently small ξ > 0, the LFPP exponent λd(ξ) = 1 − ξQd(ξ) satisfies cd ξ4/3/log(1/ξ) ≤ λd(ξ) ≤ Cd ξ4/3. Consequently λd(ξ) = ξ4/3+o(1).",
+    "description_html": "For every fixed d ≥ 2 and sufficiently small ξ &gt; 0, the LFPP exponent λ<sub>d</sub>(ξ) = 1 − ξQ<sub>d</sub>(ξ) satisfies c<sub>d</sub> ξ<sup>4/3</sup>/log(1/ξ) ≤ λ<sub>d</sub>(ξ) ≤ C<sub>d</sub> ξ<sup>4/3</sup>. Consequently λ<sub>d</sub>(ξ) = ξ<sup>4/3+o(1)</sup>.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "higher-dimensional-lfpp-exponents.pdf",
         "label": "PDF",
-        "pages": 16,
         "sha256": "99174b5e98a79ab85dd3b6146a364c98304b27b27f625b2f465644f395877466",
+        "pages": 16,
         "bytes": 432095,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/higher-dimensional-lfpp-exponents.pdf",
         "repository_path": "papers/higher-dimensional-lfpp-exponents.pdf"
@@ -255,13 +282,15 @@
   {
     "id": "small-parameter-geodesic-tightness",
     "title": "Tightness of Small-Parameter Geodesics",
-    "description": "Functional tightness of the rescaled small-parameter geodesic at constant LQG-metric speed.",
+    "description": "Let Pγ be the LQG geodesic from 0 to 1 in a whole-plane GFF, parametrized at constant metric speed on [0, 1]. The paths t ↦ γ−2/3(Pγ(t) − t) are tight in C([0, 1], ℝ2) as γ ↓ 0.",
+    "description_html": "Let P<sub>γ</sub> be the LQG geodesic from 0 to 1 in a whole-plane GFF, parametrized at constant metric speed on [0, 1]. The paths t ↦ γ<sup>−2/3</sup>(P<sub>γ</sub>(t) − t) are tight in C([0, 1], ℝ<sup>2</sup>) as γ ↓ 0.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "small-parameter-geodesic-tightness.pdf",
         "label": "PDF",
-        "pages": 6,
         "sha256": "8d2b494d035f215c5b388a780063136435280d3f9aba5957a37530b5a72eaea5",
+        "pages": 6,
         "bytes": 277269,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/small-parameter-geodesic-tightness.pdf",
         "repository_path": "papers/small-parameter-geodesic-tightness.pdf"
@@ -271,13 +300,15 @@
   {
     "id": "two-thirds-geodesic-deviation",
     "title": "Two-Thirds Geodesic Deviation",
-    "description": "Quantitative tightness and noncollapse of maximal Euclidean geodesic deviation on the γ^(2/3) scale.",
+    "description": "Let Mγ be the maximum Euclidean distance from [0, 1] reached by the whole-plane LQG geodesic from 0 to 1. Then Mγ/γ2/3 is tight and bounded away from zero in probability as γ ↓ 0. Quantitatively, 𝔼Mγ ≤ Cγ2/3 and ℙ[Mγ ≤ aγ2/3] ≤ Ca3/5 for 0 < a ≤ 1 and sufficiently small γ.",
+    "description_html": "Let M<sub>γ</sub> be the maximum Euclidean distance from [0, 1] reached by the whole-plane LQG geodesic from 0 to 1. Then M<sub>γ</sub>/γ<sup>2/3</sup> is tight and bounded away from zero in probability as γ ↓ 0. Quantitatively, 𝔼M<sub>γ</sub> ≤ Cγ<sup>2/3</sup> and ℙ[M<sub>γ</sub> ≤ aγ<sup>2/3</sup>] ≤ Ca<sup>3/5</sup> for 0 &lt; a ≤ 1 and sufficiently small γ.",
+    "lean_status": "coming soon",
     "files": [
       {
         "filename": "two-thirds-geodesic-deviation.pdf",
         "label": "PDF",
-        "pages": 13,
         "sha256": "32e726f7a96ba7f2bd2f2b94287434d74dfb2310849adea4cbf1d44f4d8570bd",
+        "pages": 13,
         "bytes": 139325,
         "github_url": "https://github.com/leobon12/ai-generated-mathematics/blob/main/papers/two-thirds-geodesic-deviation.pdf",
         "repository_path": "papers/two-thirds-geodesic-deviation.pdf"
