@@ -4,7 +4,7 @@ Research notes developed with ChatGPT, curated by Leonardo Bonanno. These are un
 
 [Research website](https://leobon12.github.io/research.html#ai-generated-research)
 
-The current collection contains 12 PDFs in 12 entries across 6 topic sections. Expand a result below to read its statement. PDF links open GitHub’s document preview.
+The current collection contains 10 PDFs in 10 entries across 6 topic sections. Expand a result below to read its statement. PDF links open GitHub’s document preview.
 
 ## Directed Distances in Random Planar Maps
 
@@ -29,22 +29,24 @@ The current collection contains 12 PDFs in 12 entries across 6 topic sections. E
 
 ## Small-Parameter Liouville Quantum Gravity
 
-### The Small-γ LQG Dimension Expansion
+### A Small-Parameter Limit for LFPP in All Dimensions
 
 <details>
 <summary>Result</summary>
 
-<p><strong>Proposed asymptotic.</strong> Let d<sub>γ</sub> denote the almost sure Hausdorff dimension of the planar γ-Liouville quantum gravity metric, with the Gaussian free field normalized to have logarithmic covariance singularity log(1/|z − w|). As γ ↓ 0, the proposed expansion is d<sub>γ</sub> = 2 + kγ<sup>4/3</sup> + o(γ<sup>4/3</sup>), where k is a deterministic, strictly positive, finite constant.</p>
-<p>The coefficient is characterized by a Gaussian variational problem. Let V<sub>n</sub> consist of continuous functions on [0, 1] that vanish at the endpoints and are affine on each interval of the uniform mesh 16<sup>−n</sup>. Let (Z<sub>f</sub>) be the centered Gaussian family with covariance Cov(Z<sub>f</sub>, Z<sub>g</sub>) = π∫<sub>0</sub><sup>1</sup>(|f| + |g| − |f − g|) dx, and set a<sub>n</sub> = 𝔼 sup<sub>f∈V<sub>n</sub></sub>{Z<sub>f</sub> − ½∫<sub>0</sub><sup>1</sup>|f′|² dx}. The stated theorem gives 0 &lt; a<sub>*</sub> = lim<sub>n→∞</sub> a<sub>n</sub>/n = inf<sub>n≥1</sub> a<sub>n</sub>/n &lt; ∞ and k = 2<sup>−1/3</sup>a<sub>*</sub>/log 16.</p>
-<p>Equivalently, the planar LFPP exponent satisfies λ(ξ)/ξ<sup>4/3</sup> → a<sub>*</sub>/log 16 as ξ ↓ 0, with parameter relation ξ = γ/d<sub>γ</sub> and λ(γ/d<sub>γ</sub>) = 1 − (2 + γ²/2)/d<sub>γ</sub>. This specifies a leading coefficient; its numerical value is not evaluated in the note.</p>
+<p>For each fixed integer d ≥ 2, let λ<sub>d</sub>(ζ) be the distance exponent of Liouville first passage percolation on ℝ<sup>d</sup>, with logarithmic covariance normalized to have coefficient one. The manuscript establishes</p>
+<p>lim<sub>ζ↓0</sub> λ<sub>d</sub>(ζ)/ζ<sup>4/3</sup> = κ<sub>d</sub>, with 0 &lt; κ<sub>d</sub> &lt; ∞.</p>
+<p>The coefficient is the subadditive rate of a Gaussian variational problem. Let V<sub>n,d</sub> consist of continuous functions f: [0,1] → ℝ<sup>d−1</sup> that vanish at the endpoints and are affine on dyadic intervals of length 2<sup>−n</sup>. For the centered Gaussian process G<sub>d</sub> with covariance Cov(G<sub>d</sub>(f), G<sub>d</sub>(g)) = π∫<sub>0</sub><sup>1</sup>(|f| + |g| − |f − g|) dx, define A<sub>n,d</sub> = 𝔼 sup<sub>f∈V<sub>n,d</sub></sub>{G<sub>d</sub>(f) − ½∫<sub>0</sub><sup>1</sup>|f′|² dx}. Then κ<sub>d</sub> = inf<sub>n≥1</sub> A<sub>n,d</sub>/(n log 2) = lim<sub>n→∞</sub> A<sub>n,d</sub>/(n log 2).</p>
+<p>The constants satisfy (d − 1)<sup>2/3</sup>κ<sub>2</sub> ≤ κ<sub>d</sub> ≤ (d − 1)κ<sub>2</sub>. The dimension is fixed; no error estimate uniform as d → ∞ is asserted.</p>
 
-<p><em>small-gamma-lqg-dimension.pdf: field normalization and LFPP setup, p. 1; equation (1.1), variational definitions (1.2)–(1.4), Theorem 1.1 and equations (1.5)–(1.6), p. 2.</em></p>
+<p><em>higher-dimensional-lfpp-limit.pdf: model and normalization (1.1)–(1.3), variational definitions (1.4)–(1.6), and Theorem 1.1, p. 2; comparison between dimensions (1.8), p. 3.</em></p>
 
 </details>
 
-- [The Small-γ LQG Dimension Expansion](papers/small-gamma-lqg-dimension.pdf) (17 pages)
+- [A Small-Parameter Limit for LFPP in All Dimensions](papers/higher-dimensional-lfpp-limit.pdf) (25 pages)
 
-**Lean:** [Lean](https://github.com/leobon12/lean-formalizations/tree/main/results/small-gamma-dimension). Theorem 1.1 and Proposition 1.2 with explicit LFPP-exponent existence and dimension-relation inputs; the linked guide lists these hypotheses and the GFF existence witness.
+**Lean:** [Lean](https://github.com/leobon12/lean-formalizations/tree/main/results/small-gamma-dimension). Existing planar small-gamma formalization: Theorem 1.1 and Proposition 1.2 of the earlier planar manuscript, with explicit LFPP-exponent existence and dimension-relation inputs. See the linked guide for its scope.
+
 
 ### Gaussian Fluctuations of LQG Distance
 
@@ -98,39 +100,7 @@ The current collection contains 12 PDFs in 12 entries across 6 topic sections. E
 
 ## Random Geometry in Dimension at Least Three
 
-### Higher-Dimensional LFPP Exponents
 
-<details>
-<summary>Result</summary>
-
-<p>Fix a dimension d ≥ 2 and normalize the whole-space log-correlated Gaussian field to have covariance singularity log(1/|x − y|). Let H<sub>N</sub> be its smooth white-noise cutoff from scales 2<sup>−N</sup> to 1, using a fixed smooth compactly supported radial kernel as specified in the note, so Var H<sub>N</sub>(x) = N log 2. Let a<sub>N</sub>(ξ) be the median of inf<sub>P:0→e₁, P⊂(−2,2)<sup>d</sup></sub> ∫<sub>P</sub>e<sup>ξH<sub>N</sub>(z)</sup>|dz|, where e₁ is the first coordinate unit vector and the infimum is over rectifiable paths. Define λ<sub>d</sub>(ξ) = −lim<sub>N→∞</sub> log a<sub>N</sub>(ξ)/(N log 2) = 1 − ξQ<sub>d</sub>(ξ).</p>
-<p>For each fixed d there are constants c<sub>d</sub>, C<sub>d</sub> &gt; 0 and ξ<sub>d</sub> &gt; 0 such that c<sub>d</sub>ξ<sup>4/3</sup>/log(1/ξ) ≤ λ<sub>d</sub>(ξ) ≤ C<sub>d</sub>ξ<sup>4/3</sup> whenever 0 &lt; ξ &lt; ξ<sub>d</sub>. In particular, log λ<sub>d</sub>(ξ)/log ξ → 4/3. The constants and the small-parameter threshold may depend on d.</p>
-<p>Under the metric-dimension correspondence Q<sub>d</sub>(ξ) = d/γ + γ/2 and ξ = γ/d<sub>γ</sub>, the same type of bounds holds for d<sub>γ</sub> − d: c′<sub>d</sub>γ<sup>4/3</sup>/log(1/γ) ≤ d<sub>γ</sub> − d ≤ C′<sub>d</sub>γ<sup>4/3</sup> for sufficiently small γ. These are logarithmic-exponent conclusions; the note does not identify a leading coefficient or establish convergence of λ<sub>d</sub>(ξ)/ξ<sup>4/3</sup>.</p>
-
-<p><em>higher-dimensional-lfpp-exponents.pdf: cutoff, distance and exponent definitions (1.1)–(1.3), Theorem 1.1, and parameter correspondence (1.6), p. 2; Corollary 1.2 and scope, p. 3; leading-coefficient question is Conjecture 6.4, p. 13.</em></p>
-
-</details>
-
-- [Higher-Dimensional LFPP Exponents](papers/higher-dimensional-lfpp-exponents.pdf) (16 pages)
-
-**Lean:** coming soon
-
-### An Axiomatic Metric in Higher Dimensions
-
-<details>
-<summary>Result</summary>
-
-<p><strong>Proposed theorem.</strong> Fix d ≥ 3 and ξ &gt; 0 such that the continuum LFPP distance exponent satisfies Q = Q(ξ) &gt; √(2d). The underlying field is the whole-space log-correlated Gaussian field on ℝ<sup>d</sup>, with covariance kernel log(1/|x − y|) modulo constants. The proposed result constructs a measurable assignment h ↦ D<sub>h</sub> of finite metrics inducing the Euclidean topology, defined for this field plus continuous functions.</p>
-<p>The assignment satisfies four strong axioms: D<sub>h</sub> is a length metric; its internal metric in each deterministic open set U is determined by h restricted to U; adding a continuous f reweights path length by e<sup>ξf</sup>; and, for each fixed r &gt; 0 and z ∈ ℝ<sup>d</sup>, D<sub>h</sub>(ru + z, rv + z) = D<sub>h(r·+z)+Q log r</sub>(u, v) almost surely for all u, v.</p>
-<p>Any two assignments satisfying these axioms at the same parameters are proposed to differ by a deterministic positive factor, simultaneously for all endpoint pairs and continuous field perturbations. For the continuum approximation kernels specified in the manuscript, the proposed result also gives convergence in probability of normalized LFPP metrics, locally uniformly, to this assignment. The approximation assertion is restricted to those kernels.</p>
-
-<p><em>higher-dimensional-lqg-metric.pdf: proposed-proof status, p. 1; Definition 1.1, Theorem 1.2 and approximation scope, p. 2; auxiliary uniqueness, Definition 1.3 and Theorem 1.4, p. 3.</em></p>
-
-</details>
-
-- [An Axiomatic Metric in Higher Dimensions](papers/higher-dimensional-lqg-metric.pdf) (32 pages)
-
-**Lean:** coming soon
 
 ### Odd-Dimensional Fields and Quantum Cones
 
