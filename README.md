@@ -43,7 +43,7 @@ The current collection contains 10 PDFs in 10 entries across 6 topic sections. E
 
 </details>
 
-- [A Small-Parameter Limit for LFPP in All Dimensions](papers/higher-dimensional-lfpp-limit.pdf) (25 pages)
+- [A Small-Parameter Limit for LFPP in All Dimensions](papers/higher-dimensional-lfpp-limit.pdf) (26 pages)
 
 **Lean:** [Lean](https://github.com/leobon12/lean-formalizations/tree/main/results/small-gamma-dimension). Existing planar small-gamma formalization: Theorem 1.1 and Proposition 1.2 of the earlier planar manuscript, with explicit LFPP-exponent existence and dimension-relation inputs. See the linked guide for its scope.
 
